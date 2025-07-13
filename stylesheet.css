@@ -1,21 +1,50 @@
 body {outline: solid red 2px;
     font-family: roboto, sans-serif;
-    display:;
+    display: flex;
+    flex-direction: column;
     }
 
-header {}
+header, .Logo {display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            background-color: #1F2937;
+            color: white;}
+
+header, .links {display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        color: white;}
 
 .some-random-information {outline: solid red 2px;
                             display: flex;}
 
-.quote-section {outline: solid red 2px;}
+.quote-section {outline: solid red 2px;
+                background-color: #E5E7EB;
+                display: flex;
+                justify-content: center;
+                align-items: center;}
 
-.call-to-action {outline: solid red 2px;}
+.whiteparagraph {outline: solid red 2px;
+                height: 100px;
+                width: auto;
+                }
+
+.call-to-action {outline: solid red 2px;
+                background-color: #3882F6;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 20px;
+                margin: 5px;
+                }
 
 .copyright {outline: solid red 2px;
             display: flex;
             justify-content: center;
             align-items: center;
             background-color: #1F2937;
-            color: white;}
+            color: white;
+            height: 40px;
+            width: auto;
+        }
 
