@@ -1,3 +1,21 @@
 body {outline: solid red 2px;
-    font-family: Arial, sans-serif;
+    font-family: roboto, sans-serif;
+    display:;
     }
+
+header {}
+
+.some-random-information {outline: solid red 2px;
+                            display: flex;}
+
+.quote-section {outline: solid red 2px;}
+
+.call-to-action {outline: solid red 2px;}
+
+.copyright {outline: solid red 2px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #1F2937;
+            color: white;}
+
