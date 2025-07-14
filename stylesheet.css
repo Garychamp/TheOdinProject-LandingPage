@@ -10,25 +10,41 @@ header, .Logo {display: flex;
             background-color: #1F2937;
             color: white;
             height: 70px;
-            width: auto;}
+            width: auto;
+            }
 
 header, .links {display: flex;
         justify-content: flex-end;
         align-items: center;
         color: white;
         height: 70px;
-        width: auto;}
+        width: auto;
+        background-color: #1F2937
+        }
+
+.hero {outline: solid red 2px;
+        display: flex;
+        background-color: #1F2937;
+        color: white;
+        }
 
 .some-random-information {outline: solid red 2px;
+                            background-color: white;
                             display: flex;
-                        height: 400px;
-                        width: auto;}
+                            height: 400px;
+                            width: auto;
+                            }
 
 .quote-section {outline: solid red 2px;
                 background-color: #E5E7EB;
                 display: flex;
                 justify-content: center;
-                align-items: center;}
+                align-items: center;
+                font-size: 15px;
+                text-wrap: wrap;
+                font-family: light-italic;
+                color: #1F2937;
+                }
 
 
 
@@ -72,5 +88,5 @@ header, .links {display: flex;
             color: white;
             height: 70px;
             width: auto;
-        }
+            }
 
