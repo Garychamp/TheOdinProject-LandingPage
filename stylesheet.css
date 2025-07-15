@@ -4,23 +4,26 @@ body {outline: solid red 2px;
     flex-direction: column;
     }
 
-header, .Logo {display: flex;
-            justify-content: flex-start;
-            align-items: center;
-            background-color: #1F2937;
-            color: white;
-            height: 70px;
-            width: auto;
-            }
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
 
-header, .links {display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        color: white;
-        height: 70px;
-        width: auto;
-        background-color: #1F2937
-        }
+ul {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+.left, .right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 16px;
+}
 
 .hero {outline: solid red 2px;
         display: flex;
