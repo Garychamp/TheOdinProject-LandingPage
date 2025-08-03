@@ -1,4 +1,4 @@
-* {font: roboto, sans-serif;
+* {font: roboto;
 }
 
 .header1 {
@@ -88,12 +88,11 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  outline: solid red 2px;
   height: 100px;
   width: auto;
-  font: 48px;
-  color: #F9FAF8;
+  font-size: 30px;
   font-weight: 900;
+  color: #F9FAF8;
   background-color: white;
   color: black;
 }
@@ -101,7 +100,7 @@
 .images{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   height: 200px;
   width: auto;
@@ -110,9 +109,8 @@
 .images2{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
-  outline: solid red 2px;
   height: 100px;
   width: auto;
 }
@@ -125,19 +123,19 @@
 }
 
 .boxwriting {
+  width: 150px;
+  height: 100px;
   font-size: 18px;
   color: black;
   text-align: center;
-  margin-top: 10px;
-  outline: solid red 2px;
+  margin-top: 0px;
 }
 
-.whiteparagraph1 {
+.greyparagraph1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  outline: solid red 2px;
   height: 300px;
   width: auto;
   background-color: #E5E7EB;
@@ -148,12 +146,28 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  outline: solid red 2px;
   height: 210px;
   width: 600px;
   font-size: 24px;
   color: black;
   background-color: #E5E7EB;
+}
+
+.quotetext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-style: italic;
+  color: black;
+}
+
+.thor {
+  font-size: 18px;
+  color: black;
+  text-align: end;
+  margin-top: 10px;
 }
 
 .whiteparagraph2 {
@@ -169,11 +183,10 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;;
+  align-items: center;
   height: 150px;
   width: 800px;
   background-color: #3882F6;
-  margin: 0px;
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
 }
@@ -191,10 +204,11 @@
 }
 
 .call-to-action {
-  font-size: 30px;
+  font-size: 24px;
   color: white;
   text-align: left;
-  outline: solid red 2px;
+  height: 40px;
+  width: 600px;
 }
 
 .bigbutton {
