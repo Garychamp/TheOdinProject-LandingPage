@@ -112,6 +112,7 @@
   height: 150px;
   border: solid #3882F6 2px;
   outline: solid red 2px;
+  border-radius: 10px;
 }
 
 .boxwriting {
